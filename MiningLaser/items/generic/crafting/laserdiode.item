@@ -1,0 +1,8 @@
+{
+  "itemName" : "laserdiode",
+  "rarity" : "Common",
+  "inventoryIcon" : "laserdiode.png",
+  "description" : "It's a laser diode. Could be used for an interesting tool.",
+  "shortdescription" : "Laser Diode",
+  "learnBlueprintsOnPickup" : [ "laserminer" ]
+}

@@ -1,0 +1,32 @@
+{
+  "itemName" : "laserminer",
+  "inventoryIcon" : "laserminericon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "inspectionKind" : "tool",
+  "description" : "Drills are in the present... Lasers are the future!",
+  "shortdescription" : "Laser Mining Tool",
+  "largeImage" : "laserminerbig.png",
+  
+  "image" : "laserminer.png:{frame}",
+  "frames" : 2,
+  "animationCycle" : 0.5,
+  "handPosition" : [-5, -5],
+  "pointable" : true,
+  "swingStart" : 0,
+  "swingFinish" : 0,
+  "fireTime" : 0.1,
+  "blockRadius" : 5,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "idleSound" : "/sfx/tools/chainsaw_idle.wav",
+  "strikeSound" : "/sfx/tools/wiretool.wav",
+  "durability" : 10000,
+  "durabilityPerUse" : 1,
+  "durabilityRegenChart" : [
+    [ [ "copperore" ], 768], [ [ "silverore" ], 1256], [ [ "goldore" ], 2512], [ [ "platinumore" ], 3768], [ [ "diamond" ], 5000]
+  ],
+  "tileDamage" : 4.5,
+  "tileDamageBlunted" : 0.2
+}
